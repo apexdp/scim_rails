@@ -10,7 +10,7 @@ module ScimRails
 
     def authorize_request
       send(authentication_strategy) do |searchable_attribute, authentication_attribute|
-        authorization = AuthorizeApiRequest.new(
+        authorization = AuthorizeAPIRequest.new(
           searchable_attribute: searchable_attribute,
           authentication_attribute: authentication_attribute
         )

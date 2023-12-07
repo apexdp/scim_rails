@@ -1,5 +1,5 @@
 module ScimRails
-  class AuthorizeApiRequest
+  class AuthorizeAPIRequest
 
     def initialize(searchable_attribute:, authentication_attribute:)
       @searchable_attribute = searchable_attribute
